@@ -9,19 +9,19 @@
 **Preconditions:** The user who has a system account.<br>
 **Normal Course:**<br>
 1. Already had an account:
-  a. The user select the login button.
-  b. The system shows the login page.
-  c. The user click login.
-  d. The system shows the Login options.
-  e. The user input their own account.
-  f. The user input the passport.
-  g. The system shows the success, and go to the homepage.
+    a. The user select the login button.
+    b. The system shows the login page.
+    c. The user click login.
+    d. The system shows the Login options.
+    e. The user input their own account.
+    f. The user input the passport.
+    g. The system shows the success, and go to the homepage.
 2. Did not have an account:
-  a. The user select create a new account.
-  b. The system shows the create account page.
-  c. User input their Email and passport.
-  d. System record the information.
-  e. System shows create account successful.
+    a. The user select create a new account.
+    b. The system shows the create account page.
+    c. User input their Email and passport.
+    d. System record the information.
+    e. System shows create account successful.
 
 **Postconditions:** <br>
 1. Only authorized accounts can login.
