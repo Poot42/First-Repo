@@ -1,34 +1,28 @@
-# Use Case: Create a science plan
-**ID:** 1<br>
-**Importance Level:** High<br>
-**Primary Actor:** Astronomer<br>
-**Use Case Type:** Detail, Essential<br>
-**Brief Description:** Astronomer can create a science plan for observing astronomical data.<br>
-**Trigger:** Astronomer want to create a new Science Plan.<br>
+# Use case Name: Login to the system
+
+**ID:** 2<br>
+**Priority:** High<br>
+**Actor:** User<br>
+**Description:** All user use their own account login into the system to use this system.<br>
+**Trigger:** The user wants to use the system.<br>
 **Type:** External<br>
-**Relationship:**<br>
-- **Association:** Astronomer<br>
-- **Include:** -
-- **Extend:** -
-- **Generalization:** -
+**Preconditions:** The user who has a system account.<br>
+**Normal Course:**<br>
+1. Already had an account:
+    1. The user select the login button.
+    2. The system shows the login page.
+    3. The user click login.
+    4. The system shows the Login options.
+    5. The user input their own account.
+    6. The user input the passport.
+    7. The system shows the success, and go to the homepage.
+2. Did not have an account:
+  1. The user select create a new account.
+  2. The system shows the create account page.
+  3. User input their Email and passport.
+  4. System record the information.
+  5. System shows create account successful.
 
-**Normal Flow of Events:**<br>
-1. Astronomer selects the "Create science plan" button.
-2. The system shows the science creation plan page.
-3. Astronomer input funding’s information.
-4. Astronomer input objective’s information.
-5. Astronomer input Stars system’s information.
-6. Astronomers select date and time.
-7. Astronomers select Telescope location.
-8. Astronomer config processing requirements by
-    1. Select file type.
-    2. Select file quality
-    3. Config image processing.
-9. The system shows the summary of the information inputted
-10. Astronomer can either confirm or re-edit the plan information
-
-**Alternate/Exeptional Flow:**<br>
-- If the input data is invalid:
-    1. Show error message.
-- If the creator wants to edit the detail of the plan before confirming the plan.
-    1. Move user back to the edit page.
+**Postconditions:** <br>
+1. Only authorized accounts can login.
+2. After login, each account can only operate the functions that obtain the permission.
